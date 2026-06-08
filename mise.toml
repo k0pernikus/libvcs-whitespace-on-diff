@@ -1,0 +1,9 @@
+[tools]
+uv = "latest"
+
+[settings]
+lockfile = true
+
+[tasks.test]
+description = "Run the pytest reproduction (the libvcs test fails by design)"
+run = "uv run pytest -vv"

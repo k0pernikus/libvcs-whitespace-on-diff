@@ -1,0 +1,11 @@
+diff --git a/file_having_a_diff.py b/file_having_a_diff.py
+index bcbab38..dd6264b 100644
+--- a/file_having_a_diff.py
++++ b/file_having_a_diff.py
+@@ -1,5 +1,5 @@
+ def greet(name):
+-    message = "hello, " + name
++    message = "hi there, " + name
+ 
+     print(message)
+     return message
